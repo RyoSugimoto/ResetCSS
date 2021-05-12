@@ -25,12 +25,6 @@ section {
           box-sizing: inherit;
 }
 
-:after,
-:before {
-  text-decoration: inherit;
-  vertical-align: inherit;
-}
-
 html {
   cursor: default;
   -moz-tab-size: 4;
@@ -271,7 +265,6 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
   vertical-align: middle;
   max-width: 100%;
 }
@@ -305,9 +298,6 @@ img {
 
 svg :not(:root) {
   overflow: hidden;
-}
-svg :not([fill]) {
-  fill: CurrentColor;
 }
 
 canvas {
